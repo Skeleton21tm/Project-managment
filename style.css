@@ -1,10 +1,12 @@
 /*IMPORT SECTION*/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
 /*Gobal*/
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /*HEADER PART*/
 header{
@@ -16,7 +18,8 @@ header{
 }
 .logo{
     display: block;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-top: -18px;
 }
 #pp{
     margin-left: -20%;
@@ -25,10 +28,12 @@ header{
     border-radius: 50%;
     margin-top: 2%;
 }
-#logo{
-    margin-bottom: -25%;
-    width: 75px;
-    border-radius: 50%;
+#logo img{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-bottom: -215%;
+  margin-left: -60%;
 }
 .nav{
     width: 50%; 
@@ -41,6 +46,9 @@ header{
 .nav a{
     text-decoration: none;
     color: white;
+}
+.nav a:hover{
+  color: white;
 }
 /*FOOTER PART*/
 
@@ -179,19 +187,12 @@ footer #cont{
 /*Schedules part*/
 .box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     height: 300px;
   
   }
-  .schedules{
-    background-color: gray;
-    width: 40%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: block;
-    align-items: center;
-  }
+  
   .homework{
     background-color: gray;
     width: 20%;
@@ -215,6 +216,138 @@ footer #cont{
     max-height:300px ;
   }
 .sizing{
-  margin-left: 600px;
-  width: 250px !important;
+  width: 100%;
+  height: 300px !important;
+}
+.carousel-caption a{
+  text-decoration: none;
+  color: white;
+}
+.carousel-caption a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/*Shedules Chelouuuuuuuu*/
+
+.schedules{
+  
+  /*height: 100px;
+  background-color: gray;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+  align-items: center;*/
+  margin:5px;
+  padding:5px;
+  width: 500px;
+  height: 92%;
+  overflow: auto;
+  text-align:justify;
+}
+
+
+html {
+  font-family: "Montserrat";
+}
+.container-schedules {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #111;
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f22;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+  .timeline ul li:hover::before {
+    background-color: aqua;
+  }
 }
