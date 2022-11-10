@@ -211,6 +211,17 @@ footer #cont{
     display: block;
     align-items: center;
   }
+  /*Shedules Chelouuuuuuuu*/
+
+.schedules{
+  margin:5px;
+  padding:5px;
+  width: 500px;
+  height: 92%;
+  overflow: auto;
+  text-align:justify;
+  width: 70%;
+}
   /*carousel style*/
   .carousel{
     max-height:300px ;
@@ -228,24 +239,7 @@ footer #cont{
   color: white;
 }
 
-/*Shedules Chelouuuuuuuu*/
 
-.schedules{
-  
-  /*height: 100px;
-  background-color: gray;
-  width: 40%;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  display: block;
-  align-items: center;*/
-  margin:5px;
-  padding:5px;
-  width: 500px;
-  height: 92%;
-  overflow: auto;
-  text-align:justify;
-}
 
 
 html {
