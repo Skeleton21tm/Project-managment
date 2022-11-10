@@ -217,7 +217,7 @@ footer #cont{
   }
 .sizing{
   width: 100%;
-  height: 300px !important;
+  height: px !important;
 }
 .carousel-caption a{
   text-decoration: none;
