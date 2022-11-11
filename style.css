@@ -146,6 +146,7 @@ footer #cont{
     height: 30px;
 }
 .fa {
+    display: table;
     padding: 20px;
     font-size: 30px;
     width: 30px;
