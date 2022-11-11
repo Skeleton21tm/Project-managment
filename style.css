@@ -218,10 +218,10 @@ footer #cont{
   margin:5px;
   padding:5px;
   width: 500px;
-  height: 92%;
+  height: 150%;
   overflow: auto;
   text-align:justify;
-  width: 70%;
+  width: 100%;
 }
   /*carousel style*/
   .carousel{
@@ -343,6 +343,6 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: aqua;
+    background-color: #0a5f5f;
   }
 }
