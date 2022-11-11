@@ -215,8 +215,7 @@ footer #cont{
   /*Shedules Chelouuuuuuuu*/
 
 .schedules{
-  margin:5px;
-  padding:5px;
+  margin-top:10px;
   width: 500px;
   height: 150%;
   overflow: auto;
