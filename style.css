@@ -50,7 +50,8 @@ header{
 .nav a:hover{
   color: white;
 }
-/*Footer part*/
+/*FOOTER PART*/
+
 body{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight:300;
@@ -132,6 +133,10 @@ footer #cont{
     text-transform: uppercase;
 }
 /*ICON GLOBAL SETUP*/
+.size{
+  height: 30px;
+  width: 30px;
+}
 #icons{
     display: flex;
     justify-content: space-between;
@@ -145,10 +150,10 @@ footer #cont{
     height: 30px;
 }
 .fa {
-    display: table;
+    display: table !important;
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: 30px !important;
     height: 50px;
     text-align: center;
     text-decoration: none;
@@ -214,12 +219,13 @@ footer #cont{
   /*Shedules Chelouuuuuuuu*/
 
 .schedules{
-  margin-top:10px;
+  margin:5px;
+  padding:5px;
   width: 500px;
-  height: 150%;
+  height: 92%;
   overflow: auto;
   text-align:justify;
-  width: 100%;
+  width: 70%;
 }
   /*carousel style*/
   .carousel{
@@ -341,6 +347,6 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: #0a5f5f;
+    background-color: aqua;
   }
 }
