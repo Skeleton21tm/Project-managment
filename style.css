@@ -346,6 +346,6 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: aqua;
+    background-color: #0a5f5f;
   }
 }
