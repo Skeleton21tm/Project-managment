@@ -219,13 +219,12 @@ footer #cont{
   /*Shedules Chelouuuuuuuu*/
 
 .schedules{
-  margin:5px;
-  padding:5px;
+  margin-top:10px;
   width: 500px;
   height: 92%;
   overflow: auto;
   text-align:justify;
-  width: 70%;
+  width: 100%;
 }
   /*carousel style*/
   .carousel{
