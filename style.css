@@ -256,7 +256,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: 20px 0;
-  background-color: #111;
+  background-color: fff;
 }
 .timeline {
   width: 80%;
@@ -271,7 +271,7 @@ html {
 }
 .timeline ul li {
   padding: 20px;
-  background-color: #1e1f22;
+  background-color: #177E89;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -346,6 +346,6 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: #0a5f5f;
+    background-color: aqua;
   }
 }
