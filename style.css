@@ -136,6 +136,7 @@ footer #cont{
 .size{
   height: 30px;
   width: 30px;
+  margin-right: 92px;
 }
 #icons{
     display: flex;
