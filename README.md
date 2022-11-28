@@ -14,13 +14,15 @@ On the site they can follow the latest news, chat with their teachers and much m
 
 2/Website architecture plan
 
--
+-For the moment, the site is designed so that when you arrive on the first page, you can see the schedule and the latest news.
+The student can also click on the navigation bar to access the "Messages" and "Campus Life" pages.
 
--
+-The headings are created.
 
 3/Project Creation
 
--
+-First we created the homepage with a header, body and footer.
+In the second sprint we hope to make a full site taking into account the mistakes of sprint 1, this would give us time to do as much js as possible and try to use sql for the accounts/connections.
 
 -
 
@@ -30,8 +32,8 @@ On the site they can follow the latest news, chat with their teachers and much m
 
 4/First Website design steps
 
--
+-For the design of our website we were inspired by existing school websites, for the css we used coolors.co a website that combines colours that go well together.
 
 -
 
--
+-not included
