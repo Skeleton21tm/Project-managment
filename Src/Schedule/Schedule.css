@@ -1,3 +1,15 @@
+/*IMPORT SECTION*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+/*Gobal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER PART*/
 header{
     display: flex!important;
     width: 100%;
