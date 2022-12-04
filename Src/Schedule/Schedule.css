@@ -116,10 +116,21 @@ body {font-family: Verdana, sans-serif;}
   color: #777;
 }
 
+/* A utiliser plus tard 
 .days li .active {
   padding: 5px;
   background: #08605F;
   color: white !important
+}*/
+
+.active-day{
+    background-color: #08605F;
+    color: white !important
+}
+
+.last-month{
+    font-style: italic;
+    background-color: rgb(203, 203, 203);
 }
 
 @media screen and (max-width:720px) {
