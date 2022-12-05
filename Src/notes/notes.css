@@ -3,73 +3,74 @@
     padding: 0;
 }
 /*header*/
-nav {
-    margin: 50px;
+header nav {
+  margin: 50px;
 }
 
-ul {
-    overflow: auto;
-    list-style-type: none;
+header nav ul {
+  overflow: auto;
+  list-style-type: none;
 }
 
-li {
-    height: 26px;
-    float: left;
-    margin-right: 0px;
-    border-right: 1px solid #aaa;
-    padding: 0 20px;
+header nav ul li {
+  height: 26px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
 }
 
-li:last-child {
-    border-right: none;
+header nav ul li:last-child {
+  border-right: none;
 }
 
-li a {
-    text-decoration: none;
-    color: #ccc;
-    font: 25px/1 Helvetica, Verdana, sans-serif;
-    text-transform: uppercase;
+header nav ul li a {
+  text-decoration: none;
+  color: #ccc !important;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
 
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-li a:hover {
-    color: #666;
+header nav ul li a:hover {
+  color: #666!important;
+  text-decoration: none!important;
 }
 
-li.active a {
-    font-weight: bold;
-    color: #333;
+header nav ul li.active a {
+  font-weight: bold;
+  color: #333!important;
 }
 header{
-    display: flex!important;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #08605F;
+  display: flex!important;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #08605F;
 }
 .logo{
-    display: block;
-    margin-left: 10%;
-    margin-top: -18px;
+  display: block;
+  margin-left: 10%;
+  margin-top: -18px;
 }
 #pp{
-    margin-left: -20%;
-    margin-bottom: 5%;
-    width: 75px;
-    border-radius: 50%;
-    margin-top: 2%;
-}
-#logo img{
-  height: 75px;
+  margin-left: -20%;
+  margin-bottom: 50%;
   width: 75px;
   border-radius: 50%;
-  margin-bottom: -129%;
-  margin-left: -60%;
+  margin-top: 2%;
+}
+#logo img{
+height: 75px;
+width: 75px;
+border-radius: 50%;
+margin-bottom: -190%;
+margin-left: -60%;
 }
 
 /*notes*/
