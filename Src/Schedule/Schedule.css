@@ -54,12 +54,12 @@ header{
 
 /*Schedule*/
 
-.div-button-calendar{
+.divbuttoncalendar{
   display: flex;
   justify-content: right;
 }
 
-.button-calendar{
+.buttoncalendar{
   padding: 3px;
   padding-left: 5px;
   padding-right: 5px;
