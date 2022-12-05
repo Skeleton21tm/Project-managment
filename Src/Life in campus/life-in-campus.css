@@ -402,7 +402,11 @@ button{
 }
 
 .card4{
-  background-image: url(DCU.png);
+  background-image: url(../../Assets/digit.jfif);
+}
+
+.card5{
+	background-image: url(../../Assets/digit.jfif);
 }
 
 .card:hover{
