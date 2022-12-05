@@ -38,3 +38,6 @@ We all want to learn and we all have ideas, so we move through the different pag
 -The architecture of the site is made with two basic folders assets and src, in assets there are image files and in src there are html and css documents.
 
 -not understood 
+
+
+![Cover](DCU.png)
