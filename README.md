@@ -40,4 +40,4 @@ We all want to learn and we all have ideas, so we move through the different pag
 -not understood 
 
 
-![Cover](../Assets/DCU.png)
+![Cover](Assets/DCU.png)
