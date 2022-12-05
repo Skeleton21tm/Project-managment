@@ -9,16 +9,16 @@
     box-sizing: border-box;
 }
 /*header*/
-nav {
+header nav {
   margin: 50px;
 }
 
-ul {
+header nav ul {
   overflow: auto;
   list-style-type: none;
 }
 
-li {
+header nav ul li {
   height: 26px;
   float: left;
   margin-right: 0px;
@@ -26,11 +26,11 @@ li {
   padding: 0 20px;
 }
 
-li:last-child {
+header nav ul li:last-child {
   border-right: none;
 }
 
-li a {
+header nav ul li a {
   text-decoration: none;
   color: #ccc;
   font: 25px/1 Helvetica, Verdana, sans-serif;
@@ -43,11 +43,11 @@ li a {
   transition: all 0.5s ease;
 }
 
-li a:hover {
+.header nav ul li a:hover {
   color: #666;
 }
 
-li.active a {
+header nav ul li.active a {
   font-weight: bold;
   color: #333;
 }
