@@ -22,18 +22,19 @@ The student can also click on the navigation bar to access the "Messages" and "C
 3/Project Creation
 
 -First we created the homepage with a header, body and footer.
-In the second sprint we hope to make a full site taking into account the mistakes of sprint 1, this would give us time to do as much js as possible and try to use sql for the accounts/connections.
+In the second sprint we hope to make a full site taking into account the mistakes of sprint 1. Before the oral we can review improvements and prepare.
+
+-Trello.
 
 -
 
--
-
--
+-The tasks on our site were divided up randomly, when someone had an idea they would propose it to the group and implement it.
+We all want to learn and we all have ideas, so we move through the different pages at different speeds.
 
 4/First Website design steps
 
 -For the design of our website we were inspired by existing school websites, for the css we used coolors.co a website that combines colours that go well together.
 
--
+-The architecture of the site is made with two basic folders assets and src, in assets there are image files and in src there are html and css documents.
 
--not included
+-not understood 
