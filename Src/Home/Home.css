@@ -10,7 +10,7 @@
 }
 /*header*/
 header nav {
-  margin: 50px;
+  margin: 30px;
 }
 
 header nav ul {
@@ -56,8 +56,8 @@ header{
   display: flex!important;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
   background-color: #08605F;
+  height: 80px;
 }
 .logo{
   display: block;
