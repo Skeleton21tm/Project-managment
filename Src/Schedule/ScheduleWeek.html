@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Schedule.css">
+    <link rel="stylesheet" href="ScheduleWeek.css">
     <title>Schedule</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -28,11 +28,12 @@
     <br>
     <h1>Calendar</h1>
     <div class="calendardivbutton">
-        <button class="calendarbutton">Day</button>
-        <button class="calendarbutton">Week</button>
-        <a href="Schedule.html"><button class="calendarbutton">Month</button></a>
+        <div class="leftdiv"></div>
+        <button class="calendarbutton" id="DayButton">Day</button>
+        <a href="ScheduleWeek.html"><button class="calendarbutton" id="WeekButton">Week</button></a>
+        <a href="Schedule.html"><button class="calendarbutton" id="MonthButton">Month</button></a>
+        <div class="rightdiv"></div>
     </div>
-    <br>
 
     <div class="month">      
         <ul>
@@ -45,52 +46,67 @@
         </ul>
     </div>
 
-    <ul class="weekdays">
-        <li>Mo</li>
-        <li>Tu</li>
-        <li>We</li>
-        <li>Th</li>
-        <li>Fr</li>
-        <li>Sa</li>
-        <li>Su</li>
-    </ul>
 
-    <ul class="days">
-        <li class="last-month">28 <br>Test</li>  
-        <li class="last-month">29 <br>Test</li>  
-        <li class="last-month">30 <br>Test</li>  
-        <li>1 <br>Test</li>
-        <li>2 <br>Test</li>
-        <li>3 <br>Test</li>
-        <li>4 <br>Test</li>
-        <li class="active-day"><!--<span class="active">-->5 <br>ProjectManagement<!--</span>--></li>
-        <li>6 <br>Test</li>
-        <li>7 <br>Test</li>
-        <li>8 <br>Test</li>
-        <li>9 <br>Test</li>
-        <li>10 <br>Test</li>
-        <li>11 <br>Test</li>
-        <li>12 <br>Test</li>
-        <li>13 <br>Test</li>
-        <li>14 <br>Test</li>
-        <li>15 <br>Test</li>
-        <li>16 <br>Test</li>
-        <li>17 <br>Test</li>
-        <li>18 <br>Test</li>
-        <li>19 <br>Test</li>
-        <li>20 <br>Test</li>
-        <li>21 <br>Test</li>
-        <li>22 <br>Test</li>
-        <li>23 <br>Test</li>
-        <li>24 <br>Test</li>
-        <li>25 <br>Test</li>
-        <li>26 <br>Test</li>
-        <li>27 <br>Test</li>
-        <li>28 <br>Test</li>
-        <li>29 <br>Test</li>
-        <li>30 <br>Test</li>
-        <li>31 <br>Test</li>
-    </ul>
+    <div class="weekcalendar">
+       <table>
+            <thead>
+                <tr>
+                    <td id="hours">Hours</td>
+                    <td class="days">Mo</td>
+                    <td class="days">Tu</td>
+                    <td class="days">We</td>
+                    <td class="days">Th</td>
+                    <td class="days">Fr</td>
+                    <td class="days">Sa</td>
+                    <td class="days">Su</td>
 
+                </tr>
+            </thead>
+            <tbody>
+                <div>
+                    <tr>
+                        <td>8:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr class="grayline">
+                        <td>9:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr class="grayline">
+                        <td>11:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr>
+                        <td>12:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr class="grayline">
+                        <td>13:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr class="grayline">
+                        <td>15:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr class="grayline">
+                        <td>17:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr class="grayline">
+                        <td>19:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td><td>Test</td><td>Test2</td><td>Test3</td><td>Test4</td><td>Test5</td><td>Test6</td><td>Test7</td>
+                    </tr>
+                </div>
+
+            </tbody>
+       </table>
+    </div>
 </body>
-</html>
+</html
