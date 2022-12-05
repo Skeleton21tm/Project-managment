@@ -8,49 +8,93 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*HEADER PART*/
+/*header*/
+nav {
+  margin: 50px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 26px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #666;
+}
+
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
 header{
-    display: flex!important;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #08605F;
+  display: flex!important;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #08605F;
 }
 .logo{
-    display: block;
-    margin-left: 10%;
-    margin-top: -18px;
+  display: block;
+  margin-left: 10%;
+  margin-top: -18px;
 }
 #pp{
-    margin-left: -20%;
-    margin-bottom: 5%;
-    width: 75px;
-    border-radius: 50%;
-    margin-top: 2%;
-}
-#logo img{
-  height: 75px;
+  margin-left: -20%;
+  margin-bottom: 5%;
   width: 75px;
   border-radius: 50%;
-  margin-bottom: -215%;
-  margin-left: -60%;
+  margin-top: 2%;
 }
-.nav{
-    width: 50%; 
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 150%; 
+#logo img{
+height: 75px;
+width: 75px;
+border-radius: 50%;
+margin-bottom: -129%;
+margin-left: -60%;
 }
-.nav a{
-    text-decoration: none;
-    color: white;
+
+/*notes*/
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  color: #08605F;
+  text-decoration: underline;
 }
-.nav a:hover{
-  color: white;
+li{
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: 'Raleway', serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-/*FOOTER PART*/
 
 body{
   font-family: 'Source Sans Pro', sans-serif;
