@@ -155,3 +155,6 @@ footer div span{
 .foot li a:hover{
   text-decoration: underline;
 }
+.fa{
+  text-decoration: none;
+}
