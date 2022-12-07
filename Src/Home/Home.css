@@ -16,6 +16,7 @@ header nav {
 header nav ul {
   overflow: auto;
   list-style-type: none;
+  height: 56px;
 }
 
 header nav ul li {
