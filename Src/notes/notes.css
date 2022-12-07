@@ -52,6 +52,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: #08605F;
+  height: 80px;
 }
 .logo{
   display: block;
@@ -60,7 +61,7 @@ header{
 }
 #pp{
   margin-left: -20%;
-  margin-bottom: 50%;
+  margin-bottom: -5%;
   width: 75px;
   border-radius: 50%;
   margin-top: 2%;
@@ -69,7 +70,7 @@ header{
 height: 75px;
 width: 75px;
 border-radius: 50%;
-margin-bottom: -190%;
+margin-bottom: -140%;
 margin-left: -60%;
 }
 
