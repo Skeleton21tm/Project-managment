@@ -150,3 +150,32 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+/*footer*/
+footer{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #08605F;
+}
+.foot{
+  list-style-type: disc;  
+}
+.foot li{
+  color: white;
+  font-size: 20px;
+}
+.foot li a{
+  color: white;
+  animation: 0.5s;
+}
+footer div{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer div span{
+  font-size: 2em;
+  color: white;
+  text-decoration: underline;
+}
+.foot li a:hover{
+  text-decoration: underline;
+}
