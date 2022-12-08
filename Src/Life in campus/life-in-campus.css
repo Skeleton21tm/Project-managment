@@ -4,9 +4,8 @@
 
 /*Gobal*/
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 /*header*/
 header nav {
@@ -79,72 +78,106 @@ margin-bottom: -190%;
 margin-left: -60%;
 }
 
+/*body*/
+
 
 .line{
-  display: flex;
-  height: 90%;
-  align-items: center;
+    display:flex!important;
+    justify-content: center!important;
+    height: 100vh!important;
+    background: whitesmoke!important;
+    align-items: center!important;
+  
 }
 
 .column{
-  flex-basis: 50%;
+  flex-basis: 50%!important;
 }
 
 button{
-  width: 180px;
-  color: #000;
-  font-size: 12px;
-  padding: 12px 0;
-  background: #fff;
-  border: 0;
-  border-radius: 20px;
-  outline: none;
-  margin-top: 30px;
+  width: 180px!important;
+  color: #000!important;
+  font-size: 12px!important;
+  padding: 12px 0!important;
+  background: #fff!important;
+  border: 0!important;
+  border-radius: 20px!important;
+  outline: none!important;
+  margin-top: 30px!important;
 
 }
 
 .card{
-  width: 200px;
-  height: 230px;
-  display: inline-block;
+  height: 230px!important;
+  width:200px!important;
+  margin: 50px!important;
+  box-shadow: 5px 5px 20px black!important;
+  overflow: hidden!important;
+  display:inline-block!important;
   border-radius: 10px;
   padding: 15px 25px;
-  box-sizing: border-box;
+  box-sizing: border-box!important;
   cursor: pointer;
-  margin:10px 15px;
-  background-position: center;
-  background-size: cover;
-  transition: transform 0.5s;
+  margin: 10px 15px;
+  background-position: center!important;
+  background-size: cover!important;
 }
 
-.card1{
-  background-image: url(../../Assets/soccer.jfif);
+.card .img{
+  height: 500px!important;
+  width:500px!important;
+  width: 350px!important;
+  border-radius: 3px!important;
+  transition: .5s!important;
+  
+}
+.intro{
+  height: 70px!important;
+  width: 350px!important;
+  padding: 6px!important;
+  box-sizing: border-box!important;
+  position: absolute!important;
+  bottom: 135px!important;
+  background: rgb(27, 27, 27, .5)!important;
+  color: white!important;
+  transition: .5s!important;
+  
+}
+h1{
+    margin: 10px!important;
+    font-size: 40px!important;
 }
 
-.card2{
-  background-image: url(../../Assets/theatre.jfif);
+p{
+  font-size: 20px!important;
+  margin: 20px!important;
+  visibility: hidden!important;
+  opacity: 0!important;
 }
 
-.card3{
-  background-image: url(../../Assets/digit.jfif);
-}
-
-.card4{
-  background-image: url(../../Assets/digit.jfif);
-}
-
-.card5{
-	background-image: url(../../Assets/digit.jfif);
+span{
+  font-weight: bold!important;
 }
 
 .card:hover{
-  transform: translate(-10px);
+  cursor: pointer!important;
 }
 
-h5{
-  color: #fff;
-  text-shadow: 0 0 5px #999;
+.card:hover .intro{
+  height: 220px!important;
+  bottom: 240px!important;
+  background: black !important;
 }
+
+.card:hover p{
+  opacity: 1!important;
+  visibility: visible!important;
+}
+
+.card:hover img{
+  transform: scale(1.1) rotate(-3deg)!important;
+}
+
 /*footer*/
 footer{
   display: grid !important;
