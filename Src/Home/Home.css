@@ -45,7 +45,7 @@ header nav ul li a, header nav ul li div button{
   transition: all 0.5s ease;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover, header nav ul li div button:hover {
   color: #666!important;
   text-decoration: none!important;
 }
@@ -360,8 +360,8 @@ footer div span{
   padding-left: 10px;
 }
 .dropdown-content a:hover {
-  color: #FFFFFF;
-  background-color: #00A4BD;
+  color: rgb(219, 219, 219) !important;
+  background-color: #177e89;
 }
 button{
     border: none;
