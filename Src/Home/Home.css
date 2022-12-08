@@ -95,14 +95,12 @@ transition: 0.5s;
 }
 
 /*notes*/
-h3{
+.carousel-caption h3, .timeline ul li a h3{
   text-align: center;
   text-transform: uppercase;
-  color: #08605F;
   text-decoration: underline;
 }
 li{
-  color: #2c3e50;
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
@@ -112,12 +110,6 @@ li{
   padding-bottom: 5px;
 }
 
-body{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight:300;
-  background-color:white;
-  color:#000;
-}
 section{
   text-align:center;
 }
@@ -199,6 +191,9 @@ section{
   text-decoration: none;
   color: white;
 }
+.carousel-indicators{
+  margin-left: 20% !important;
+}
 .carousel-caption a:hover{
   text-decoration: none;
   color: white;
@@ -228,7 +223,7 @@ section{
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 .timeline ul {
@@ -317,33 +312,99 @@ section{
 }
 
 /*footer*/
-footer{
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #08605F;
+.footer{
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#08605F;
 }
-.foot{
-  list-style-type: disc;  
+
+.footer h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
 }
-.foot li{
-  color: white;
-  font-size: 20px;
+
+.footer ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
 }
-.foot li a{
-  color: white;
-  animation: 0.5s;
+
+.footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+  
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
 }
-footer div{
-  padding-left: 10px;
-  padding-right: 10px;
+
+.footer ul a:hover {
+  opacity:0.8;
 }
-footer div span{
-  font-size: 2em;
-  color: white;
-  text-decoration: underline;
+
+@media (max-width:767px) {
+  .footer .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
 }
-.foot li a:hover{
-  text-decoration: underline;
+
+.footer .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer .item.social > a:hover {
+  opacity:0.9;
+}
+#foot{
+  font-size: 17px !important;
+}
+.footer .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
 }
 .dropdown {
   display: inline-block;
@@ -369,7 +430,8 @@ footer div span{
   padding: 5px;
   text-decoration: none;
   padding-left: 10px;
-  
+  position: relative;
+  z-index: 10000;
 }
 .dropdown-content a:hover {
   color: rgb(219, 219, 219) !important;
@@ -379,7 +441,7 @@ button{
     border: none;
     background-color: white;
 }
-.item{
+.items{
   font-size: 15px;
 }
 .timeline ul li a{
