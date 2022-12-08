@@ -67,18 +67,31 @@ header{
   margin-top: -18px;
 }
 #pp{
+  position: relative;
+  z-index: 10;
   margin-left: -20%;
   margin-bottom: 50%;
   width: 75px;
+  height: 75px;
   border-radius: 50%;
   margin-top: 2%;
+  transition: 0.5s;
 }
 #logo img{
+position: relative;
+z-index: 8;
 height: 75px;
 width: 75px;
 border-radius: 50%;
 margin-bottom: -190%;
 margin-left: -60%;
+transition: 0.5s;
+}
+
+#pp:hover, #logo img:hover{
+  width: 100px;
+  height: 100px;
+  z-index: 10000;
 }
 
 /*notes*/
@@ -361,4 +374,8 @@ button{
 }
 .item{
   font-size: 15px;
+}
+.timeline ul li a{
+  color: white;
+  text-decoration: none;
 }
