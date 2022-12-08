@@ -190,7 +190,10 @@ section{
   }
 .sizing{
   width: 100%;
-  height: 250px !important;
+  height: 400px !important;
+}
+.carousel-control{
+  height: 400px;
 }
 .carousel-caption a{
   text-decoration: none;
@@ -205,6 +208,9 @@ section{
   margin-bottom: 0px !important;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+.carousel-caption p{
+  font-size: 20px;
 }
 
 .container-schedules {
@@ -222,6 +228,7 @@ section{
   max-width: 800px;
   margin: 0 auto;
   position: relative;
+  margin-top: 100px;
 }
 
 .timeline ul {
