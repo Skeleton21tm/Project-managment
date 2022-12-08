@@ -93,12 +93,11 @@ nav{
 .profile-card{
     width: 100%;
     text-align: center;
-    border-radius: 8px;
     overflow: hidden;
   }
   
   .card-header{
-    background: #2c3a47;
+    background: #08605F;
     padding: 60px 40px;
   }
   
