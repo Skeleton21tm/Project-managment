@@ -39,5 +39,12 @@ We all want to learn and we all have ideas, so we move through the different pag
 
 -not understood 
 
+Sprint 2:
+
+1/ Present your sprint #2 organisational plan using the agile method:
+
+2/ add CSS animations:
+
+3/ first website design steps:
 
 ![Cover](Assets/DCU.png)
