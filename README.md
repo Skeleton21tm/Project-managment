@@ -45,6 +45,14 @@ Sprint 2:
 
 2/ add CSS animations:
 
+-Logo and profile picture animation
+
+-Nav animation
+
+-life in campus page animations
+
+-grades page animations
+
 3/ first website design steps:
 
 ![Cover](Assets/DCU.png)
