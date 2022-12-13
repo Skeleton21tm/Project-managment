@@ -162,23 +162,44 @@ section{
     color: white;
   }
 
-/*Schedules part*/
-.box{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 300px;
-  
-  }
-  /*Shedules Chelouuuuuuuu*/
+/*BIGBUTTON*/
 
-.schedules{
-    height: 92%;
-    width: 100%;
-}
+  .Bigbutton{
+    margin: 10px;
+  }
+
+  .Bigbutton button{
+    background-color: #08605F;
+    width: 40%;
+    border-radius: 10px;
+    height: 150px;
+    margin: 10px;
+    font-size: x-large;
+    text-shadow: #000000 1px 1px ;
+    color: white;
+  }
+
+  #ButtonSchedule{
+    background-image:url(../../Assets/bgcanard.png);
+  }
+
+  #ButtonNotes{
+    background-image: url(../../Assets/bgbleu.png);
+  }
+
+  #ButtonLIC{
+    background-image: url(../../Assets/bggris.png);
+  }
+
+  #ButtonProfil{
+    background-image: url(../../Assets/bgvert.png);
+  }
+
+
+
   /*carousel style*/
   .carousel{
-    max-height:300px ;
+    max-height:400px ;
   }
 .sizing{
   width: 100%;
