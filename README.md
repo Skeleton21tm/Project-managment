@@ -42,6 +42,11 @@ We all want to learn and we all have ideas, so we move through the different pag
 Sprint 2:
 
 1/ Present your sprint #2 organisational plan using the agile method:
+-Updated Tasks on Trello 
+
+-For the second sprint we were much better organised and the distribution of work was better done.
+
+-Problems of non-application of tags in the style, solution found put "!important".
 
 2/ add CSS animations:
 
